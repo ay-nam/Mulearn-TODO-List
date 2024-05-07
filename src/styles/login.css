@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('C:/Users/hp/todo-list/public/bg-desktop-light.jpg');
+    background-size: 100% 35%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25rem;
+
+}
+
+.login-form {
+    background-color: white;
+    border-radius: 5px;
+    width: 25rem;
+    height: 20rem;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: white;
+}
+
+.username-label,
+.password-label {
+    padding: 10px;
+    font-size: 17px;
+}
+
+.username-input,
+.password-input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 0;
+}
+
+.btn {
+    width: 6rem;
+    height: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 70px;
+    background-color: #685ec2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #685ec2cb; 
+  }
+
